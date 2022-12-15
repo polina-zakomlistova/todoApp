@@ -8,7 +8,7 @@ import singleTodo from './images/singleTodo.png';
 const descriptions = [
     {
         description:
-            'Введите текст, дату выполнения и степень важности задачи.',
+            'Введите текст, дату выполнения и степень важности вашей задачи.',
         image: todoForm,
     },
     {
