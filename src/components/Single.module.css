@@ -1,0 +1,46 @@
+.singleTodo textarea {
+    font-size: 1.3rem;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 150px;
+    resize: none;
+}
+
+.singleTodo button {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.singleTodo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.singleTodo div {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.singleTodo input {
+    height: 50px;
+    font-size: 1.3rem;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.singleTodo select {
+    height: 50px;
+    font-size: 1.3rem;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
