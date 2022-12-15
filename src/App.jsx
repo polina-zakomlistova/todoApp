@@ -106,6 +106,7 @@ function App() {
                                 />
                             }
                         />
+                        <Route path="todoApp" element={<AboutApp />} />
                         <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
